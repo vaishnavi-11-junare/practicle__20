@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Div container -->
+<div id="box">Old Content</div>
+<!-- Button to update content -->
+<button onclick="update()">Update</button>
+<script>
+function update(){
+// Change HTML content inside div
+document.getElementById("box").innerHTML = "<h2>New Content</h2>";
+}
+</script>
+</body>
+</html>
